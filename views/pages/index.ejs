@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+  <title>Contact us</title>
+</head>
+<body>
+  <header>
+    <% include ../partials/header %>
+  </header>
+  <div class="container">
+    <div class="about-us">
+      <div class="about-us-title">HOLD OUT A LITTLE LONGER</div>
+      <div class="about-us-body">
+        <p>
+          Fill out the form below and we will send you an email with a simple
+           liability form for you to sign. After that, we ship you your free can
+           of Kool-Aid, satisfaction guaranteed. We've never heard a bad word
+           from our wonderful customers, because they already moved on to
+           the afterlife!
+        </p>
+      </div>
+    </div>
+    <form id="contact-form" action="#">
+      <input type="text" class="input-left" placeholder="First Name" required autocomplete="off">
+      <input type="text" class="input-right" placeholder="Last Name" required autocomplete="off">
+      <input type="text" id="email" placeholder="Email Address" required onkeyup="validate()" autocomplete="off">
+      <input type="text" id="confirm-email" placeholder="Confirm Email Address"required onkeyup="validateConfirm()" autocomplete="off">
+      <p id="hidden-warning-message">*emails do not match</p>
+      <div style="text-align: center;">
+        <button id="custom-button" class="contact-us-button" disabled>BRING ON THE AFTERLIFE</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+</body>
+<script src="myjs.js"></script>
+</html>
