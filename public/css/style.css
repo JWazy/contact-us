@@ -281,7 +281,7 @@ input {
   font-size: 18px;
   color: #FFFFFF;
   padding-left: 0;
-  width: 390px;
+  width: 100%;
 }
 .input-left {
   width: 45%;
@@ -358,7 +358,7 @@ input {
 }
 #custom-button.contact-us-button {
   height: 60px;
-  padding: 10px 45px;
+  width: 250px;
   border-radius: 30px;
   font-size: 18px;
   margin: 50px auto;
