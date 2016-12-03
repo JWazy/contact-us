@@ -356,6 +356,18 @@ input {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
+#contact-us-msg {
+    margin: 8px auto 0;
+    outline: none;
+    border: 2px solid #6d6a92;
+    background: #79779a;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 100%;
+}
 #custom-button.contact-us-button {
   height: 60px;
   width: 250px;
